@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
         videoView.start();
 
         // Start the media player
-        Toast.makeText(mContext, "Media Player is playing.", Toast.LENGTH_SHORT).show();
+        
 
         mButtonPlay.setEnabled(false);
         mButtonPause.setEnabled(true);
